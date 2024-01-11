@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(44, 11, 107);
+}
+
+.box{
+    background-color: white;
+}
+  
+  .container{
+    background-color: white;
+    width: 70vw;
+    height:70vh;
+    border: 1px solid black;
+    margin-top:5vw;
+    margin-left: 15vw;
+  
+  }
+  
+  .options{
+      background-color: rgb(0, 115, 255);
+      padding:1px ;
+      border-radius: 50px;
+      width:40vw;
+      text-align: center;
+      color: white;
+  }
+  
+  .option1{
+    display: flex;
+    justify-content: space-between;
+    margin-top:3vw;
+  
+  }
+  
+  #question{
+    margin-top:2vw;
+    text-align: center;
+  }
+  
+  #optionbar{
+    margin-top: 5vw;
+  }
+  
+  #button1{
+    background-color: lightblue;
+    border: none;
+    padding:3px;
+    width:8vw;
+    margin-right:2vw ;
+    font-weight: bold;
+    
+  }
+  
+  #button2{
+    background-color: darkgreen;
+    border: none;
+    padding:3px;
+    width:8vw;
+    margin-right:2vw;
+    font-weight: bold;
+  }
+  
+#button3{
+    background-color: red;
+    border: none;
+    padding:3px;
+    width:8vw;
+    margin-right: 2vw;
+    font-weight: bold;
+}
+  
+.buttons{
+    margin-top: 2vw;
+    display: flex;
+    justify-content: center; 
+}
+   
+#title{
+    text-align: center;
+  }
